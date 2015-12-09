@@ -1,9 +1,7 @@
 package v2;
 
-import v0.GameOverException;
-import v0.GameTile;
-import v0.Position;
-import v0.RoundTile;
+import v0.GameModel;
+import v0.*;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;

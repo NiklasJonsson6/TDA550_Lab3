@@ -392,12 +392,13 @@ public class ReversiModel implements GameModel {
 		else if (board[x][y] == PieceColor.WHITE) {
 			return whiteTile;
 		}
+		return whiteTile;
 	}
 
 	/**
 	 * {@inheritDoc}
 	 */
 	public Dimension getGameboardSize() {
-
+		return new Dimension(width, height);
 	}
 }
